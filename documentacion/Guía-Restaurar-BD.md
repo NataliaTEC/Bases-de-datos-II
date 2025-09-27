@@ -43,7 +43,7 @@ En SSMS:
 - Se abrirá la ventana de restauración.  
 
 📸 Ejemplo:  
-![Abrir opción de restauración](../codigo/src/assets/IMG_SSMS_Backup_0.png)
+![Abrir opción de restauración](https://github.com/NataliaTEC/Bases-de-datos-II/blob/647042fa658f5004c06ff47d0f14f34b40755d46/imagenes/Restaurar.png)
 
 
 ## 📂 4. Seleccionar el archivo de backup
@@ -51,18 +51,24 @@ En SSMS:
 2. Haz clic en los **tres puntos (...)** al lado derecho.  
 
 📸 Ejemplo:  
-![Seleccionar Device](../codigo/src/assets/IMG_SSMS_Backup_1.png)
+![Seleccionar Device](https://github.com/NataliaTEC/Bases-de-datos-II/blob/647042fa658f5004c06ff47d0f14f34b40755d46/imagenes/Device.png)
 
 
 ## ➕ 5. Agregar el archivo `.bak`
-1. En la nueva ventana, haz clic en **Add**.  
-2. Selecciona el archivo **AdventureWorks2022.bak** que moviste al disco C:.  
+1. En la nueva ventana, haz clic en **Add**.
+   
+📸 Ejemplo:  
+![Agregar archivo](https://github.com/NataliaTEC/Bases-de-datos-II/blob/647042fa658f5004c06ff47d0f14f34b40755d46/imagenes/Agregar.png)
+
+2. Selecciona el archivo **AdventureWorks2022.bak** que moviste al directorio.
 
 📸 Ejemplo:  
-![Agregar archivo](../codigo/src/assets/IMG_SSMS_Backup_2.png)  
+![Seleccionar Base](https://github.com/NataliaTEC/Bases-de-datos-II/blob/647042fa658f5004c06ff47d0f14f34b40755d46/imagenes/SeleccionarBD.png)
 
+3. Añadir dando **OK**.
+   
 📸 Selección del archivo:  
-![Seleccionar archivo .bak](../codigo/src/assets/IMG_SSMS_Backup_3.png)
+![Seleccionar archivo .bak](https://github.com/NataliaTEC/Bases-de-datos-II/blob/647042fa658f5004c06ff47d0f14f34b40755d46/imagenes/Add.png)
 
 
 ## 🚀 6. Restaurar la base de datos
