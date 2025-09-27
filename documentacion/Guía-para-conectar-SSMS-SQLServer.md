@@ -58,3 +58,7 @@ hostname -I | awk '{print $1}'
 ```
 ✅ Copia la IP (ej.: 172.20.240.1). Ten en cuenta que esa IP cambia cada vez que reinicias WSL y vuelve a intentar el método A colocando la ip copiada en **Server name**.
 
+## 🖥️ Prueba
+
+![image alt](https://github.com/NataliaTEC/Bases-de-datos-II/blob/a2a099c52747825fd5d02465411f9a158dedb05d/imagenes/SQLServerVista.png)
+
