@@ -1,4 +1,7 @@
 # 📘 Guía para restaurar la base de datos AdventureWorks2022 en SQL Server
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04%20%7C%2024.04-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/)  
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-Developer%20Edition-CC2927?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/es-es/sql-server/sql-server-downloads)  
+[![WSL](https://img.shields.io/badge/WSL-2-0078D6?logo=windows&logoColor=white)](https://learn.microsoft.com/en-us/windows/wsl/)
 
 Esta guía explica paso a paso cómo restaurar la base de datos **AdventureWorks2022** en SQL Server (instalado dentro de WSL con Ubuntu), utilizando **SQL Server Management Studio (SSMS)**.
 
