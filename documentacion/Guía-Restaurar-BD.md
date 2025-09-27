@@ -14,13 +14,26 @@ Antes de iniciar asegúrate de tener:
 Descarga el archivo **AdventureWorks2022.bak** desde la página oficial de Microsoft:  
 📑 [AdventureWorks - Microsoft Docs](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms)  
 
+```bash
+# Desde tu Ubuntu/WSL, descargar la base de datos
+wget https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2022.bak
+```
+
 Para este ejemplo usaremos la versión **AdventureWorks2022.bak**.
 
 
-## 💾 2. Mover el archivo al disco C:
-Una vez descargado el archivo `.bak`, muévelo a tu disco local **C:\\**.  
-> Ejemplo: `C:\AdventureWorks2022.bak`
+## 💾 2. Copiar el archivo a un directorio accesible por SQL Server:
 
+```bash
+# Crear directorio para backups
+sudo mkdir -p /var/opt/mssql/backup
+
+# Copiar el archivo (si lo descargaste en WSL)
+sudo cp AdventureWorks2022.bak /var/opt/mssql/backup/
+
+# Dar permisos a SQL Server
+sudo chown mssql:mssql /var/opt/mssql/backup/AdventureWorks2022.bak
+```
 Esto facilita el acceso desde SSMS.
 
 
